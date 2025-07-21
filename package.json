@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "build": "npm install -g @softeria/ms-365-mcp-server"
+    "build": "npm install -g @softeria/ms-365-mcp-server",
+    "postinstall": "npm install -g @softeria/ms-365-mcp-server"
   },
   "dependencies": {
     "n8n": "^1.88.0",
