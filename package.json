@@ -1,0 +1,17 @@
+{
+  "name": "n8n-ms365-mcp-railway",
+  "version": "1.0.0",
+  "description": "n8n with Microsoft 365 MCP Server on Railway",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "npm install -g @softeria/ms-365-mcp-server"
+  },
+  "dependencies": {
+    "n8n": "^1.88.0",
+    "@softeria/ms-365-mcp-server": "latest"
+  },
+  "engines": {
+    "node": "20.x"
+  }
+}
